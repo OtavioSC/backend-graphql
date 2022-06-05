@@ -1,6 +1,6 @@
 # graphql-crud
 
-## Challenge de CRUD GraphQL + Relay + Node.js + Typescript + React
+## Challenge de CRUD GraphQL + Relay + Node.js + Typescript + React + Mongodb
 
 ### Backend
 - [ ] it should be a [GraphQL](https://graphql.org/) Server using [Node.js](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/)
