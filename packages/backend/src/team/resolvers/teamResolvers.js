@@ -18,22 +18,13 @@ const teamResolvers={
         }
     },
     Mutation:{
-        createFriend: (root,{ input }) => {
-            const team = new Teams({
-                name: input.name,
-                country: input.country,
-                language: input.language,
-                age: input.age
-            });
-
-            team.id=team._id;
-
-            return new Promise((resolve,reject)=>{
-                team.save((err)=>{
-                    err ? reject(err) : resolve(team);
-                })
-            })
+        createTeam: (root,{ input }, {mongoData}) => { // db.{database}.insertOne()
         },
+        updateTeam: (root,{ input }, {mongoData}) => { // db.{database}.update() 
+        },
+        deleteTeam: (root,{ input }, {mongoData}) => { // db.{database}.remove()
+        }
     },
 };
+
 module.exports = teamResolvers;

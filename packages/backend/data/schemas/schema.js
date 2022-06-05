@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-export const teamsSchema = new mongoose.Schema({
+export const teamsModel = new mongoose.Schema({
     name: {
         type: String
     },

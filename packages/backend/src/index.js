@@ -1,18 +1,20 @@
-import express from 'express';
-import { ApolloServer } from 'apollo-server-express';
+import { ApolloServer } from 'apollo-server';
+import { Teams } from '../data/Teams.ts'
+import { teamsModel } from '../data/schemas/schema';
 
 import { teamResolvers } from './team/resolvers/teamResolvers';
 import { typeDefs } from './team/schemas/team.graphql';
 
-const server = new ApolloServer({ typeDefs, teamResolvers });
-const app = express();
+const typeDefs = [teamSchema]
+const resolvers = [teamResolvers]
 
-server.applyMiddleware({ app });
+const server = new ApolloServer( { 
+  typeDefs, 
+  resolvers,
+  dataSources: () => ({ 
+    Teams: new Teams(teamsModel)
+})});
 
-app.get('/', (req, res) => {
-    console.log("Apollo GraphQL Express server is ready");
-});
-
-app.listen(9001, () => {
-    console.log(`Server running`);
-});
+server.listen().then(({url}) => {
+  console.log(`Server Running`)
+})
