@@ -1,0 +1,28 @@
+import { gql } from 'apollo-server-express';
+
+export const typeDefs = gql`
+    type Team{
+       id:ID!
+       name:String!
+       country: String!
+       language:String
+       age:Int
+    }
+
+    input TeamInput{
+       id:ID!
+       name:String!
+       country: String!
+       language:String
+       age:Int
+    }
+
+    type Query{
+        teams:[teams]
+        teamById(id:ID!):Teams
+    }
+
+    type Mutation{
+        createTeam(input:TeamInput):Team
+    }
+`;
