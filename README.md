@@ -1,26 +1,27 @@
-# graphql-crud
+<div id="top"></div>
 
-## Challenge de CRUD GraphQL + Relay + Node.js + Typescript + React + Mongodb
+<br />
+<div align="center">
+  <a>
+    <img src="https://img.icons8.com/color/344/graphql.png" alt="Logo" width="80" height="80">
+  </a>
 
-### Backend
-- [ ] it should be a [GraphQL](https://graphql.org/) Server using [Node.js](https://nodejs.org/en/) + [TypeScript](https://www.typescriptlang.org/)
-- [x] it should connect to a database ([MongoDB](https://www.mongodb.com/) or [PostgreSQL](https://www.postgresql.org/))
-- [x] it should support GraphQL Queries
-- [x] it should support GraphQL Mutations
+  <p align="center">
+    Soccer Teams Full-Stack CRUD
+    <br />
+  </p>
+</div>
 
-### Frontend
-- [ ] it should be a [React](https://reactjs.org/) Web App with [Realy](https://relay.dev/)
-- [ ] it should support GraphQL Queries with Relay
-- [ ] it should support GraphQL Mutations with Relay
+### Built With
 
-### Bonus & Extras
-- [x] open-sourced on your GitHub
-- [ ] automated tests: [Jest](https://jestjs.io/) + [react-testing-library](https://testing-library.com/)
-- [ ] good design (bonus if using a design system, like [antd](https://ant.design/))
-- [ ] authentication system
-- [ ] [Storybook](https://storybook.js.org/)
-- [ ] [GraphQL Playground](https://github.com/graphql/graphql-playground)
-- [ ] deploy (Vercel? Netlify? Heroku? AWS?)
-- [ ] CI/CD (GitHub Actions, CircleCI etc)
-- [ ] ask for help and for code review during the development
+* [GraphQL](https://nodejs.org/en/)
+* [Node.js](https://nodejs.org/en/)
+* [MongoDB](https://www.mongodb.com/)
+* [React.js](https://reactjs.org/)
+* [Relay](https://relay.dev/)
 
+## Contact
+
+Otavio - [@otascar](https://twitter.com/otascar) - contato@otaviocarmo.com.br
+
+Project Link: [https://github.com/OtavioSC/graphql-crud](https://github.com/OtavioSC/graphql-crud)
