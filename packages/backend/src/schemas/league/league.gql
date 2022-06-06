@@ -1,0 +1,22 @@
+type League {
+    _id: ID!
+    name: String!
+    country: String!
+}
+
+input LeagueInput{
+    _id: ID!
+    name: String!
+    country: String!
+}
+
+type Query{
+    leagues: [League]
+    league(id: ID!): ID!
+}
+
+type Mutation {
+    createLeague(league: LeagueInput): League!
+    updateLeague(id: ID, league: LeagueInput!): League!
+    deleteLeague(id: ID!): Boolean
+}
