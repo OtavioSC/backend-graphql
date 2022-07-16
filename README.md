@@ -7,7 +7,7 @@
   </a>
 
   <p align="center">
-    Backend Fullstack App Typescript and GraphQL
+    Backend Fullstack Application
     <br />
   </p>
 </div>
@@ -17,8 +17,7 @@
 * [GraphQL](https://nodejs.org/en/)
 * [Node.js](https://nodejs.org/en/)
 * [MongoDB](https://www.mongodb.com/)
-* [React.js](https://reactjs.org/)
-* [Relay](https://relay.dev/)
+* [Typescript](https://www.typescriptlang.org/)
 
 ## Contact
 
