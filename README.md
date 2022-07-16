@@ -7,7 +7,7 @@
   </a>
 
   <p align="center">
-    Full-Stack GraphQL CRUD
+    Backend Fullstack App Typescript and GraphQL
     <br />
   </p>
 </div>
