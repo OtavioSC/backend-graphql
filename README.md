@@ -7,7 +7,7 @@
   </a>
 
   <p align="center">
-    Soccer Teams Full-Stack CRUD
+    Full-Stack GraphQL CRUD
     <br />
   </p>
 </div>
